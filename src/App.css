@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #111;
+}
+
+button {
+  font-family: inherit;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+}
+
+/* Header */
+
+.header {
+  height: 80px;
+  padding: 0 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+}
+
+.nav a {
+  color: #111;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.header-right {
+  display: flex;
+  gap: 15px;
+}
+
+.header-right button {
+  border: none;
+  background: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* Hero */
+
+.hero {
+  min-height: 620px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 80px 100px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #f2f2f2 0%,
+      #fafafa 55%,
+      #e7e7e7 100%
+    );
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-small {
+  margin-bottom: 25px;
+
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #666;
+}
+
+.hero h1 {
+  margin: 0;
+
+  font-size: 56px;
+  line-height: 1.15;
+  letter-spacing: -3px;
+}
+
+.hero-description {
+  margin-top: 30px;
+
+  color: #666;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.ai-button {
+  margin-top: 30px;
+
+  padding: 16px 30px;
+
+  border: none;
+  background: #111;
+  color: white;
+
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.ai-button:hover {
+  background: #333;
+}
+
+/* Products */
+
+.products {
+  padding: 100px;
+}
+
+.section-title p {
+  margin: 0 0 10px;
+
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #777;
+}
+
+.section-title h2 {
+  margin: 0;
+
+  font-size: 32px;
+  letter-spacing: -1px;
+}
+
+.product-list {
+  margin-top: 50px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.product-card {
+  cursor: pointer;
+}
+
+.product-image {
+  height: 360px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f3f3f3;
+
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #999;
+}
+
+.brand {
+  margin: 20px 0 5px;
+
+  font-size: 11px;
+  color: #777;
+  letter-spacing: 1px;
+}
+
+.product-card h3 {
+  margin: 0;
+
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.price {
+  margin-top: 10px;
+
+  font-size: 14px;
+}
