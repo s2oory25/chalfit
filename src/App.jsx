@@ -10,7 +10,7 @@ function App() {
         <nav className="nav">
           <a href="#">셀럽픽</a>
           <a href="#">종류</a>
-          <a href="#">얼굴형</a>
+          <a href="#">AI 맞춤 서비스</a>
           <a href="#">스타일</a>
           <a href="#">고객센터</a>
         </nav>
